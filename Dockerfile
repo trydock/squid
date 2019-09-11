@@ -1,7 +1,7 @@
 FROM alpine
 
 RUN echo "Installing Squid3"
-RUN apk add --no-cache squid
+RUN apk add --no-cache squid bash vim
 RUN echo "Copying entrypoint.sh"
 COPY entrypoint.sh /entrypoint.sh
 RUN echo "Adding entrypoint.sh"
