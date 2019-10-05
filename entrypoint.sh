@@ -13,7 +13,7 @@ mkdir -p ${SQUID_CACHE_DIR}
 
 # Launch Squid3
 if [[ ! -d ${SQUID_CACHE_DIR}/00 ]]; then
-  echo "Initializing squid3  cache directory..."
+  echo "Initializing squid3 cache directory..."
   /usr/sbin/squid -N -f /etc/squid/squid.conf -z
 fi
 echo "Starting squid3..."
