@@ -1,4 +1,4 @@
-# Docker SQUID 3.5 Proxy
+# Docker SQUID 4.8 Proxy
 
 This is Squid Cache: Version 4.8
 
